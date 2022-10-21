@@ -12,6 +12,12 @@ public class GoalController : ControllerBase
     {
     }
 
+    //SIMPLE MATH UNIT TEST
+    public static int Multiply(int x, int y)
+    {
+        return x * y;
+    }
+
     // GET all action
     [HttpGet]
     public ActionResult<List<Goal>> GetAll() => 
@@ -31,7 +37,7 @@ public class GoalController : ControllerBase
 
     //POST action
     [HttpPost]
-    public IActionResult Create(Goal goal)
+    public IActionResult Create(Goal goal) 
     {
         GoalService.Add(goal);
         return CreatedAtAction(nameof(Create), new { id = goal.Id, dateCreated = goal.DateCreated }, goal);
@@ -71,7 +77,7 @@ public class GoalController : ControllerBase
 //use for testing in HTTPREPL
 
 //POST
-//"{"content": "", "isComplete": false}"
+//post -c "{"content": "", "isComplete": false}"
 
 //PUT
-//"{"id": ,"content": "", "isComplete": true}"
+//put 3 -c "{"id": ,"content": "", "isComplete": true}"
