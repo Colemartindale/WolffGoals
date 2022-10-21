@@ -24,3 +24,5 @@
 ### In order to unit test simply run "dotnet test" and everything in the "TestClass.cs" file will execute
 
 This should properly demonstrate CRUD functionality with a unit test.
+
+### If you have any trouble with httprepl refer to this link https://learn.microsoft.com/en-us/aspnet/core/web-api/http-repl/?view=aspnetcore-6.0&tabs=macos
