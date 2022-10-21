@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 public class testclass 
 {
-    //SIMPLE MATH UNIT TEST
+    //SIMPLE MATH UNIT TEST (I did this to better understand how unit tests work)
     [Fact]
     public void PassingMultiplyTest()
     {

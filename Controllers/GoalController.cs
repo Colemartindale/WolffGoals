@@ -12,7 +12,7 @@ public class GoalController : ControllerBase
     {
     }
 
-    //SIMPLE MATH UNIT TEST
+    //SIMPLE MATH UNIT TEST (I did this to better understand how unit tests work)
     public static int Multiply(int x, int y)
     {
         return x * y;
