@@ -13,5 +13,5 @@
   -"ls" will show all Controllers available
   -"cd {CONTROLLER}" will show all routes and functionality available with that controller. ex. "cd Goal"
   -Once in a controller you can interact with it by typing the following commands
-    *"get" (This will return all goals)
+    * "get" (This will return all goals)
     *get
