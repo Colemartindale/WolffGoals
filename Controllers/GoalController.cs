@@ -75,6 +75,9 @@ public class GoalController : ControllerBase
 }
 
 //use for testing in HTTPREPL
+// GET
+//"get" gets all goals in db
+// "get 2" gets goal with the id you specified
 
 //POST
 //post -c "{"content": "", "isComplete": false}"

@@ -42,7 +42,7 @@ public static class GoalService
         var index = Goals.FindIndex(g => g.Id == goal.Id);
         if(index == -1)
             return;
-
+        goal.DateCreated = DateTime.Now;
         Goals[index] = goal;
     }
 }
